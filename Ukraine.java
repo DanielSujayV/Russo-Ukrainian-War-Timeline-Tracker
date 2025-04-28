@@ -1149,7 +1149,7 @@ class Ukraine{
 public static void main(String[] args){
 Scanner s=new Scanner(System.in);
 int year,day,month,o;
-Ukraine u=new Ukraine();
+//Ukraine u=new Ukraine();
 ArrayList<EventDate> validDates = EventDate.getValidDates();
 while(true){
 System.out.println("KOZATSKOHO RODU (Cossack Nation)-RUSSO-UKRAINIAN WAR TIMELINE TRACKER");
