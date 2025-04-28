@@ -1152,7 +1152,7 @@ int year,day,month,o;
 Ukraine u=new Ukraine();
 ArrayList<EventDate> validDates = EventDate.getValidDates();
 while(true){
-System.out.println("KOZATSKOHO RODU (Cossack Nation)");
+System.out.println("KOZATSKOHO RODU (Cossack Nation)-RUSSO-UKRAINIAN WAR TIMELINE TRACKER");
 System.out.println("------------------------------");
 System.out.println("|                            |");
 System.out.println("|                            |");
