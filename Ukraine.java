@@ -1162,7 +1162,7 @@ System.out.println("|                            |");
 System.out.println("|                            |");
 System.out.println("|                            |");
 System.out.println("------------------------------");
-System.out.println("Enter operations:\n1. Get an event by giving day, month and year\n2. Random event generator\n3. Search for a keyword");
+System.out.println("Enter operations:\n1. Get an event by giving day, month and year\n2. Random event generator\n3. Search for a keyword\nPress 0 to exit");
 o=s.nextInt();
 if (o == 0) {
   System.out.println("\nSlava Ukraini, Heroyam Slava!\n(Glory to Ukraine, Glory to Heroes!)");
