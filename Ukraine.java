@@ -1143,25 +1143,31 @@ validDates.add(new EventDate(2025, 2, 24));
   }
   
 }
+class Country {
+    public void showMessage() {
+        System.out.println("KOZATSKOHO RODU (Cossack Nation)-RUSSO-UKRAINIAN WAR TIMELINE TRACKER");
+System.out.println("------------------------------");
+System.out.println("|                            |");
+System.out.println("|                            |");
+System.out.println("|                            |");
+System.out.println("------------------------------");
+System.out.println("|                            |");
+System.out.println("|                            |");
+System.out.println("|                            |");
+System.out.println("------------------------------");
+    }
+}
 
-class Ukraine{
+class Ukraine extends Country{
   
 public static void main(String[] args){
 Scanner s=new Scanner(System.in);
 int year,day,month,o;
-//Ukraine u=new Ukraine();
+Ukraine u=new Ukraine();
 ArrayList<EventDate> validDates = EventDate.getValidDates();
 while(true){
-System.out.println("KOZATSKOHO RODU (Cossack Nation)-RUSSO-UKRAINIAN WAR TIMELINE TRACKER");
-System.out.println("------------------------------");
-System.out.println("|                            |");
-System.out.println("|                            |");
-System.out.println("|                            |");
-System.out.println("------------------------------");
-System.out.println("|                            |");
-System.out.println("|                            |");
-System.out.println("|                            |");
-System.out.println("------------------------------");
+u.showMessage();
+
 System.out.println("Enter operations:\n1. Get an event by giving day, month and year\n2. Random event generator\n3. Search for a keyword\nPress 0 to exit");
 o=s.nextInt();
 if (o == 0) {
